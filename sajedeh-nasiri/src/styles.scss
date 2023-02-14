@@ -28,7 +28,7 @@ button {
 }
 
 .col-1 {
-  flex-grow: 1;
+  flex: 1 1 auto;
 }
 
 .fh {
@@ -57,6 +57,20 @@ button {
 
 .accent-text {
   color: #055c9d;
+}
+
+.pull-right {
+  justify-content: end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.content-center {
+  display: flex;
+  place-content: center;
+  align-items: center;
 }
 
 //LG

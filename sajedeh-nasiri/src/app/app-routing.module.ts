@@ -8,7 +8,7 @@ const routes: Routes = [
   {path: 'about-me',component: AboutMeComponent},
   {path: 'project',component: ProjectsComponent},
   {path: 'resume',component: ResumeComponent},
-  {path: '', redirectTo:"about-me",pathMatch:"full"},
+  {path: '', redirectTo:"about-me", pathMatch:"full"},
 
 ];
 

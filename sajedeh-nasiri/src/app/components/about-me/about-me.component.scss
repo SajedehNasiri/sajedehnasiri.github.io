@@ -1,10 +1,12 @@
 @import "variables";
+:host {
+  display: flex;
+  align-items: center;
+}
 
 .image-section {
   flex-basis: 30%;
   display: flex;
-  align-items: center;
-  place-content: center;
   .image {
     width: 100%;
     height: 400px;
@@ -26,6 +28,10 @@
   gap: 16px;
 }
 
+.g100-45 {
+  gap: 100px;
+}
+
 //LG
 @media screen and (min-width: $lg-screen) {
 }
@@ -42,15 +48,26 @@
     border-radius: 50%;
     animation: none;
   }
+  .g100-45 {
+    gap: 45px;
+  }
 }
 
 //XS
 @media screen and (max-width: $sm-screen) {
-  .image-section .image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    animation: none;
+  .image-section {
+    align-items: center;
+    place-content: center;
+    .image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation: none;
+    }
+  }
+
+  .g100-45 {
+    gap: 45px;
   }
 }
 

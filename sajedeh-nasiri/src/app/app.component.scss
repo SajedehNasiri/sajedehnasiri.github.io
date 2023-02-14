@@ -9,11 +9,8 @@
 
 section {
   width: 100%;
-  // display: flex;
-  // align-items: center;
-  // place-content: center;
-  overflow: auto;
   padding: 32px 0;
+  display: flex;
 }
 
 .image-section {
@@ -28,7 +25,6 @@ section {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    // box-shadow: 16px -16px 0px #0e86d4;
   }
 }
 .para-section {

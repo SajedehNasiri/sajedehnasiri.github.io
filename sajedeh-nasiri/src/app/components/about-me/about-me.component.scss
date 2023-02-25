@@ -1,0 +1,109 @@
+@import "variables";
+:host {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.image-section {
+  flex-basis: 30%;
+  display: flex;
+  .image {
+    width: 100%;
+    height: 550px;
+    background: url(../../../assets/img/sj-lg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: all 400ms ease;
+    animation: slide-down 1000ms forwards 0ms ease;
+    // &:hover {
+    //   border-radius: 20%;
+    // }
+  }
+}
+.para-section {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.g100-45 {
+  gap: 100px;
+}
+
+//LG
+@media screen and (min-width: $lg-screen) {
+}
+
+//MD
+@media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
+}
+
+//SM
+@media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
+  .image-section .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: none;
+  }
+  .g100-45 {
+    gap: 45px;
+  }
+}
+
+//XS
+@media screen and (max-width: $sm-screen) {
+  .image-section {
+    align-items: center;
+    place-content: center;
+    .image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation: none;
+    }
+  }
+
+  .g100-45 {
+    gap: 45px;
+  }
+}
+
+@keyframes slide-down {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 550px;
+  }
+}
+
+.typing-heading {
+  width: 220px;
+  overflow: hidden;
+  border-right: 1px solid white;
+  white-space: nowrap;
+  animation: type 3s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 220px;
+  }
+}
+
+@keyframes blink-caret {
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(211, 211, 211);
+  }
+}

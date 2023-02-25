@@ -9,7 +9,7 @@ body {
 * {
   margin: 0;
   padding: 0;
-  font-family: Poppins, "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 ul li {
@@ -27,8 +27,18 @@ button {
   outline: none;
 }
 
+.column {
+  display: flex;
+  flex-direction: column !important;
+}
+
 .col-1 {
-  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.col-2 {
+  flex: 2 0 auto;
 }
 
 .fh {
@@ -44,11 +54,19 @@ button {
   flex-direction: row;
 }
 
+p {
+  line-height: 160%;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
   padding-right: 16px;
   padding-left: 16px;
+}
+
+.hr-center {
+  place-content: center;
 }
 
 .primary-text {
@@ -73,10 +91,20 @@ button {
   align-items: center;
 }
 
+.bold {
+  font-weight: bold;
+}
+.light-text {
+  font-weight: 100;
+}
+
 //LG
 @media screen and (min-width: $lg-screen) {
   .container {
     width: 60%;
+    .container {
+      width: 80%;
+    }
   }
 }
 

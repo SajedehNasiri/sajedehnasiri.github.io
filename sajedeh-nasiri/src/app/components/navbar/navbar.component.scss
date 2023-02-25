@@ -10,6 +10,7 @@
   flex-shrink: 0;
   position: sticky;
   top: 0;
+  z-index: 999;
 }
 
 .navbar {
@@ -36,6 +37,7 @@ h4 {
   top: 0;
   left: 0;
   background: #e4eef7;
+  z-index: 999;
   .action-bar {
     display: flex;
     height: 45px;

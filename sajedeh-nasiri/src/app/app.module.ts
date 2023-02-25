@@ -13,6 +13,7 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { LeafyComponent } from './components/projects/leafy/leafy.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     NavbarComponent,
     AboutMeComponent,
     ProjectsComponent,
-    ResumeComponent
+    ResumeComponent,
+    LeafyComponent
   ],
   imports: [
     BrowserModule,

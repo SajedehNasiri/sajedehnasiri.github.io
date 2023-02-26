@@ -70,18 +70,6 @@
   }
 }
 
-//LG
-@media screen and (min-width: $lg-screen) {
-}
-
-//MD
-@media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
-}
-
-//SM
-@media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
-}
-
 //XS
 @media screen and (max-width: $sm-screen) {
   .ov-container {

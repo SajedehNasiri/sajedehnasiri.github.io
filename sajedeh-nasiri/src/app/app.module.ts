@@ -14,6 +14,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LeafyComponent } from './components/projects/leafy/leafy.component';
+import { GotToTopComponent } from './components/got-to-top/got-to-top.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LeafyComponent } from './components/projects/leafy/leafy.component';
     AboutMeComponent,
     ProjectsComponent,
     ResumeComponent,
-    LeafyComponent
+    LeafyComponent,
+    GotToTopComponent
   ],
   imports: [
     BrowserModule,

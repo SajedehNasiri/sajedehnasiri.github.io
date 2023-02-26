@@ -1,0 +1,26 @@
+.go-top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background-color: inherit;
+  color: inherit;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  mat-icon {
+    animation: go-top 800ms infinite alternate;
+  }
+}
+
+@keyframes go-top {
+  from {
+    transform: translateY(-2px);
+  }
+  to {
+    transform: translateY(1px);
+  }
+}

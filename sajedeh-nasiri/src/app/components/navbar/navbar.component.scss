@@ -34,6 +34,7 @@ h4 {
   align-items: center;
   img {
     width: 40px;
+    animation: breath 2s infinite 2s alternate ease-in-out;
   }
 }
 
@@ -142,5 +143,17 @@ h4 {
       display: block;
       padding: 5px;
     }
+  }
+}
+
+@keyframes breath {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }

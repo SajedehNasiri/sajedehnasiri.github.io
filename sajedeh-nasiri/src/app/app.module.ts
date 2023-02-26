@@ -15,6 +15,7 @@ import { ResumeComponent } from './components/resume/resume.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LeafyComponent } from './components/projects/leafy/leafy.component';
 import { GotToTopComponent } from './components/got-to-top/got-to-top.component';
+import { DataScrollDirective } from './directive/data-scroll.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GotToTopComponent } from './components/got-to-top/got-to-top.component'
     ProjectsComponent,
     ResumeComponent,
     LeafyComponent,
-    GotToTopComponent
+    GotToTopComponent,
+    DataScrollDirective
   ],
   imports: [
     BrowserModule,

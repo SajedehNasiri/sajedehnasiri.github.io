@@ -49,6 +49,10 @@ button {
   gap: 16px;
 }
 
+.pt16 {
+  padding-top: 16px;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -63,6 +67,10 @@ p {
   margin: 0 auto;
   padding-right: 16px;
   padding-left: 16px;
+}
+
+.fw {
+  width: 100%;
 }
 
 .hr-center {

@@ -5,10 +5,10 @@
   height: 45px;
   padding: 35px 0;
   width: 100%;
-  background-color: #e4eef7;
+  background-color: transparent;
   color: #003060;
   flex-shrink: 0;
-  position: sticky;
+  position: absolute;
   top: 0;
   z-index: 999;
 }
@@ -44,6 +44,12 @@ h4 {
     padding: 13px 0;
     width: 100%;
     color: #003060;
+  }
+  ul {
+    width: 100%;
+  }
+  li {
+    padding: 20px 0;
   }
 }
 

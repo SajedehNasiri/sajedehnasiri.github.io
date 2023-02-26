@@ -4,7 +4,7 @@
 @media screen and (min-width: $lg-screen) {
   .heading {
     font-size: 40px;
-    padding-top: 80px;
+    padding-top: 180px;
   }
   .gap130-lg {
     gap: 130px;
@@ -17,16 +17,22 @@
   .pt90-lg {
     padding-top: 90px;
   }
+
+  .mockup-section .frame {
+    width: 380px;
+    height: 270px;
+    top: 10px;
+    left: 10px;
+  }
 }
 
 //MD
 @media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
   .heading {
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 150px;
   }
   .banner {
-    background-position: right !important;
     img.mockup {
       width: 400px;
       bottom: -30px !important;
@@ -42,16 +48,22 @@
   .pt90-lg {
     padding-top: 50px;
   }
+
+  .mockup-section .frame {
+    width: 285px;
+    height: 203px;
+    top: 8px !important;
+    left: 7px !important;
+  }
 }
 
 //SM
 @media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
   .heading {
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 160px;
   }
   .banner {
-    background-position: right !important;
     img.mockup {
       width: 200px;
       bottom: -40px !important;
@@ -75,6 +87,17 @@
   .prototype-btn {
     place-self: center;
   }
+
+  .project-ov-item p {
+    width: 80% !important;
+  }
+
+  .mockup-section .frame {
+    width: 285px;
+    height: 203px;
+    top: 8px !important;
+    left: 7px !important;
+  }
 }
 
 //XS
@@ -84,10 +107,9 @@
   }
   .heading {
     font-size: 27px;
-    padding-top: 10px;
+    padding-top: 110px;
   }
   .banner {
-    background-position: right !important;
     img.mockup {
       width: 200px;
       bottom: -40px !important;
@@ -111,12 +133,22 @@
   .prototype-btn {
     place-self: center;
   }
+
+  .project-ov-item p {
+    width: 80% !important;
+  }
+
+  .mockup-section .frame {
+    width: 94%;
+    height: 77%;
+    top: 3% !important;
+    left: 3% !important;
+  }
 }
 
 // CUSTOM
 @media screen and (max-width: 250px) {
   .banner {
-    background-position: right !important;
     img.mockup {
       width: 0;
       display: none;
@@ -126,10 +158,9 @@
 
 @media screen and (max-height: $sm-screen) and (min-width: $md-screen) {
   .banner {
-    background-position: right !important;
     img.mockup {
-      width: 250px;
-      bottom: -40 !important;
+      width: 350px;
+      bottom: -40px !important;
     }
   }
 }
@@ -137,6 +168,6 @@
 @media screen and (max-height: $sm-screen) and (max-width: $md-screen) {
   .heading {
     font-size: 27px;
-    padding-top: 0;
+    padding-top: 100px;
   }
 }

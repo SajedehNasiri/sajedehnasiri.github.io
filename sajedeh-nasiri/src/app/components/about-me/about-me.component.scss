@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   padding-top: 32px;
+  margin-top: 115px;
 }
 
 .image-section {
@@ -17,9 +18,6 @@
     border-radius: 10px;
     transition: all 400ms ease;
     animation: slide-down 1000ms forwards 0ms ease;
-    // &:hover {
-    //   border-radius: 20%;
-    // }
   }
 }
 .para-section {

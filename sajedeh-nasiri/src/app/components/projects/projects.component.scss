@@ -19,7 +19,7 @@
     flex: 1 1 0;
     padding: 20px;
     position: relative;
-    img:nth-child(1) {
+    .primary-banner {
       position: absolute;
       top: 10%;
       left: 10%;
@@ -28,12 +28,15 @@
       box-shadow: 5px 1px 28px #263741;
       border-radius: 5px;
     }
-    img:nth-child(2) {
+    .secondary-banner {
       position: absolute;
       top: 0;
       right: 0;
       width: 48%;
       z-index: 1;
+      img {
+        width: 100%;
+      }
     }
   }
   .project-overview {
@@ -64,5 +67,34 @@
         }
       }
     }
+  }
+}
+
+//LG
+@media screen and (min-width: $lg-screen) {
+}
+
+//MD
+@media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
+}
+
+//SM
+@media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
+}
+
+//XS
+@media screen and (max-width: $sm-screen) {
+  .ov-container {
+    padding: 10px 0 !important;
+  }
+  .project-image {
+    padding: 0 !important;
+  }
+  .primary-banner {
+    display: none;
+  }
+
+  .secondary-banner {
+    left: 10px;
   }
 }

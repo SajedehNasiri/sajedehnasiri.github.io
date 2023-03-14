@@ -69,6 +69,13 @@ p {
   padding-left: 16px;
 }
 
+.container-fluid {
+  width: 95%;
+  margin: 0 auto;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 .fw {
   width: 100%;
 }
@@ -104,6 +111,13 @@ p {
 }
 .light-text {
   font-weight: 100;
+}
+
+body {
+  background: url(./assets/img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 //LG

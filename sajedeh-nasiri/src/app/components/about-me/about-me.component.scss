@@ -7,7 +7,7 @@
 }
 
 .image-section {
-  flex-basis: 30%;
+  flex-basis: 50%;
   display: flex;
   .image {
     width: 100%;
@@ -15,13 +15,12 @@
     background: url(../../../assets/img/sj-lg.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 60px;
     transition: all 400ms ease;
-    animation: slide-down 1000ms forwards 0ms ease;
   }
 }
 .para-section {
-  flex-basis: 70%;
+  flex-basis: 50%;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -41,14 +40,24 @@
 
 //SM
 @media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
-  .image-section .image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    animation: none;
+  .image-section {
+    .image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      animation: none;
+      margin: 0 auto;
+    }
+    .g100-45 {
+      gap: 45px !important;
+    }
   }
-  .g100-45 {
-    gap: 45px;
+
+  .main {
+    flex-direction: column;
+    * {
+      text-align: center;
+    }
   }
 }
 
@@ -64,10 +73,10 @@
       animation: none;
     }
   }
+}
 
-  .g100-45 {
-    gap: 45px;
-  }
+.g100-45 {
+  gap: 45px;
 }
 
 @keyframes slide-down {
@@ -78,14 +87,6 @@
   to {
     height: 550px;
   }
-}
-
-.typing-heading {
-  width: 220px;
-  overflow: hidden;
-  border-right: 1px solid white;
-  white-space: nowrap;
-  animation: type 3s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 @keyframes type {

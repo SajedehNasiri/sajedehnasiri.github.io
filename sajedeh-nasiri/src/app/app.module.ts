@@ -16,6 +16,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LeafyComponent } from './components/projects/leafy/leafy.component';
 import { GotToTopComponent } from './components/got-to-top/got-to-top.component';
 import { DataScrollDirective } from './directive/data-scroll.directive';
+import { LandingComponent } from './components/landing/landing.component';
+import { HeaderImageComponent } from './components/header-image/header-image.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { DataScrollDirective } from './directive/data-scroll.directive';
     ResumeComponent,
     LeafyComponent,
     GotToTopComponent,
-    DataScrollDirective
+    DataScrollDirective,
+    LandingComponent,
+    HeaderImageComponent
   ],
   imports: [
     BrowserModule,

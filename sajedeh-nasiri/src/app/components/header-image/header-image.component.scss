@@ -1,0 +1,41 @@
+@import "variables";
+
+object {
+  width: 100%;
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+
+.header-bg{
+  width: 100%;
+  
+}
+
+//LG
+@media screen and (min-width: $lg-screen) {
+  object {
+    top: -150px;
+  }
+}
+
+//MD
+@media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
+  object {
+    top: -110px;
+  }
+}
+
+//SM
+@media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
+  object {
+    top: -65px;
+  }
+}
+
+//XS
+@media screen and (max-width: $sm-screen) {
+  object {
+    top: 0;
+  }
+}

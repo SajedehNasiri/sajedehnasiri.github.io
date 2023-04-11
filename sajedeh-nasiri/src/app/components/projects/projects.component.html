@@ -1,29 +1,6 @@
-<div class="container">
-  <div class="project-item">
-    <div class="project-image">
-      <img class="primary-banner" src="../../../assets/img/leafy_homepage.png" alt="">
-      <div class="secondary-banner column">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-        <img src="../../../assets/img/leafy_homepage_2.png" alt="">
-      </div>
-    </div>
-    <div class="project-overview">
-      <section>
-        <div class="ov-container">
-          <h1>LEAFY</h1>
-          <p>House Plant Online Shop Adaptive Website
-          </p>
-          <a class="visit" [routerLink]="['leafy']">
-            <mat-icon>keyboard_arrow_right</mat-icon>
-            <span>Read Full Case Study</span>
-          </a>
-        </div>
-      </section>
-
-    </div>
-  </div>
+<div class="container column g60 fw pb40">
+  <app-project-item *ngFor="let item of projects" [data]="item"></app-project-item>
 </div>
+
+<app-footer *ngIf="!relativePath"></app-footer>
+<app-go-to-top></app-go-to-top>

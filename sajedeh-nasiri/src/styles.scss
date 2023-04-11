@@ -33,12 +33,11 @@ button {
 }
 
 .col-1 {
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex: 1 0 0;
 }
 
 .col-2 {
-  flex: 2 0 auto;
+  flex: 2 0 0;
 }
 
 .fh {
@@ -54,6 +53,11 @@ button {
 }
 
 .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-sm {
   display: flex;
   flex-direction: row;
 }
@@ -105,21 +109,34 @@ p {
   place-content: center;
   align-items: center;
 }
-
+.end {
+  display: flex;
+  align-items: end;
+}
 .bold {
   font-weight: bold;
 }
+
 .light-text {
   font-weight: 100;
 }
 
 body {
-  background: url(./assets/img/header_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  background-image: url(./assets/img/header_bg.png),
+    url(./assets/img/footer.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: top, bottom;
 }
 
+.obj-link {
+  pointer-events: none;
+}
+
+app-go-to-top {
+  background-color: #247db1;
+  color: white;
+}
 //LG
 @media screen and (min-width: $lg-screen) {
   .container {

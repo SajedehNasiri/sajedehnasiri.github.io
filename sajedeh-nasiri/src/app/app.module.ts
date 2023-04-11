@@ -18,6 +18,8 @@ import { GotToTopComponent } from './components/got-to-top/got-to-top.component'
 import { DataScrollDirective } from './directive/data-scroll.directive';
 import { LandingComponent } from './components/landing/landing.component';
 import { HeaderImageComponent } from './components/header-image/header-image.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ProjectItemComponent } from './components/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { HeaderImageComponent } from './components/header-image/header-image.com
     GotToTopComponent,
     DataScrollDirective,
     LandingComponent,
-    HeaderImageComponent
+    HeaderImageComponent,
+    FooterComponent,
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,

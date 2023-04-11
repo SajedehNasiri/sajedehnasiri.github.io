@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'about-me', component: AboutMeComponent },
   { path: 'project', component: ProjectsComponent },
   { path: 'project/leafy', component: LeafyComponent },
-  { path: 'resume', component: ResumeComponent },
+  { path: 'leafy', redirectTo: "project/leafy", pathMatch: "full" },
   { path: '', component: LandingComponent },
 
 ];

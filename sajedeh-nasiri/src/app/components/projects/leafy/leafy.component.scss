@@ -74,12 +74,15 @@ p {
   }
 }
 
+.prototype-btn-container {
+  width: max-content;
+}
+
 .prototype-btn {
-  width: 240px;
   background-color: $leafy-accent;
   display: flex;
   align-items: center;
-  padding: 7px 16px;
+  padding: 16px;
   gap: 11px;
   border-radius: 5px;
   margin: 10px 0;
@@ -103,6 +106,7 @@ p {
 
 .project-ov-container {
   justify-content: space-between;
+  padding: 0 23px;
 }
 
 .project-ov-item {
@@ -146,7 +150,7 @@ p {
     padding-bottom: 20px;
   }
   ul {
-    padding-left: 25px;
+    padding-left: 20px;
   }
   ul li {
     list-style: disc;
@@ -154,7 +158,7 @@ p {
 }
 
 .persona-ov {
-  padding: 24px 0;
+  // padding: 24px 0;
   background: #f8eee2;
   * {
     font-size: 15px !important;
@@ -162,13 +166,15 @@ p {
   }
 
   .persona-image-container {
-    padding: 8px;
+    max-width: fit-content;
+    // padding: 8px;
     img {
-      max-width: 90%;
+      // max-width: 90%;
     }
   }
   .persona-ov-item {
-    padding: 0 16px;
+    padding: 16px;
+    padding-bottom: 0;
   }
   ul {
     padding-left: 30px;
@@ -178,6 +184,35 @@ p {
   p {
     padding-bottom: 15px;
   }
+}
+
+.challenges-container {
+  gap: 50px;
+  padding-bottom: 120px;
+}
+.challenges {
+  gap: 32px;
+
+  .header {
+    font-weight: 400;
+    padding: 16px 0;
+  }
+  .challenges-figure {
+    justify-content: space-around;
+  }
+}
+
+.obj-container {
+  object {
+    max-width: 100%;
+  }
+}
+
+.gap200 {
+  gap: 200px;
+}
+.gap90 {
+  gap: 90px;
 }
 
 .scroll-screen-demo {
@@ -244,16 +279,19 @@ caption {
   gap: 30px;
 }
 
-app-got-to-top {
+app-go-to-top {
   background-color: $leafy-primary;
   color: white;
 }
 
+.regular {
+  list-style: disc;
+}
 .supplements {
-  list-style: url("../../../../assets/img/leafy/icon/supplements.svg") !important;
+  // list-style: url("../../../../assets/img/leafy/icon/supplements.svg") !important;
 }
 .air-quality {
-  list-style: url("../../../../assets/img/leafy/icon/air-quality.svg") !important;
+  // list-style: url("../../../../assets/img/leafy/icon/air-quality.svg") !important;
 }
 .consultation {
   list-style: url("../../../../assets/img/leafy/icon/consultation.svg") !important;
@@ -265,16 +303,16 @@ app-got-to-top {
   list-style: url("../../../../assets/img/leafy/icon/easy-access.svg") !important;
 }
 .health {
-  list-style: url("../../../../assets/img/leafy/icon/health.svg") !important;
+  // list-style: url("../../../../assets/img/leafy/icon/health.svg") !important;
 }
 .healthy-plant {
-  list-style: url("../../../../assets/img/leafy/icon/healthy-plant.svg") !important;
+  // list-style: url("../../../../assets/img/leafy/icon/healthy-plant.svg") !important;
 }
 .information {
   list-style: url("../../../../assets/img/leafy/icon/information.svg") !important;
 }
 .light {
-  list-style: url("../../../../assets/img/leafy/icon/light.svg") !important;
+  // list-style: url("../../../../assets/img/leafy/icon/light.svg") !important;
 }
 
 /* width */

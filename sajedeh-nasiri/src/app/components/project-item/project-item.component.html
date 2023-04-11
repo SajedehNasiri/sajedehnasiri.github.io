@@ -1,0 +1,17 @@
+<div class="row project-item">
+  <div class="project-image" [style.backgroundColor]="data.bgColor">
+    <img class="primary-banner" [src]="'../../../assets/img/' + data.imageFileName" alt="">
+  </div>
+  <div class="project-overview">
+    <section>
+      <div class="ov-container column">
+        <h1>{{data.name}}</h1>
+        <p>{{data.description}}</p>
+        <a class="visit" [routerLink]="[data.link]">
+          View Case Study
+        </a>
+      </div>
+    </section>
+
+  </div>
+</div>

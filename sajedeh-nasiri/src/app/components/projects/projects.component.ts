@@ -20,14 +20,14 @@ export class ProjectsComponent {
       name: 'The Clove Club',
       description: 'Redesign of restaurant website',
       imageFileName: 'pr_the_clove_club.png',
-      link: this.relativePath ? 'project/' : '',
+      link: '/coming-soon',
       bgColor: '#BFD7ED'
     },
     {
       name: 'High-five',
       description: 'Social connecting App design',
       imageFileName: 'high_five_iPhone.png',
-      link: this.relativePath ? 'project/' : '',
+      link: '/coming-soon',
       bgColor: '#CCE5FC'
     },
   ];

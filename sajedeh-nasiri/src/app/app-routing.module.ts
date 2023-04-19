@@ -5,11 +5,13 @@ import { LandingComponent } from './components/landing/landing.component';
 import { LeafyComponent } from './components/projects/leafy/leafy.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ResumeComponent } from './components/resume/resume.component';
+import { UnderConstructionComponent } from './components/under-construction/under-construction.component';
 
 const routes: Routes = [
   { path: 'about-me', component: AboutMeComponent },
   { path: 'project', component: ProjectsComponent },
   { path: 'project/leafy', component: LeafyComponent },
+  { path: 'coming-soon', component: UnderConstructionComponent },
   { path: 'leafy', redirectTo: "project/leafy", pathMatch: "full" },
   { path: '', component: LandingComponent },
 

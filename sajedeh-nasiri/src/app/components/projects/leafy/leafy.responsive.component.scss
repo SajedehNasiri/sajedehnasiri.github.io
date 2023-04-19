@@ -140,6 +140,7 @@
 
   .prototype-btn {
     place-self: center;
+    cursor: pointer;
   }
 
   .project-ov-item p {
@@ -247,6 +248,10 @@
     .header {
       font-size: 18px;
     }
+  }
+
+  .prototype-btn-container {
+    width: 100% !important;
   }
 }
 

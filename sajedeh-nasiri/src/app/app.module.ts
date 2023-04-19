@@ -20,6 +20,7 @@ import { LandingComponent } from './components/landing/landing.component';
 import { HeaderImageComponent } from './components/header-image/header-image.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectItemComponent } from './components/project-item/project-item.component';
+import { UnderConstructionComponent } from './components/under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProjectItemComponent } from './components/project-item/project-item.com
     LandingComponent,
     HeaderImageComponent,
     FooterComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,

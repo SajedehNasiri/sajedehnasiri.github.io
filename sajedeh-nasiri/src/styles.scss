@@ -71,6 +71,7 @@ p {
   margin: 0 auto;
   padding-right: 16px;
   padding-left: 16px;
+  max-width: 1500px;
 }
 
 .container-fluid {
@@ -123,14 +124,6 @@ p {
 
 .light-text {
   font-weight: 100;
-}
-
-body {
-  background-image: url(./assets/img/header_bg.png),
-    url(./assets/img/footer.png);
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
-  background-position: top, bottom;
 }
 
 .obj-link {

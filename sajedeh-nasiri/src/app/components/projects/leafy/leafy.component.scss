@@ -22,6 +22,7 @@ p {
 
 .main-content {
   padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 .banner {
@@ -70,6 +71,13 @@ p {
       left: 0.5em;
       margin-right: -50%;
       background: linear-gradient(90deg, #72a257, transparent);
+    }
+
+    &.connected:before {
+      right: 0;
+    }
+    &.connected:after {
+      left: 0;
     }
   }
 }
@@ -334,4 +342,73 @@ app-go-to-top {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+
+  .footer-body {
+    height: 100%;
+    display: block;
+
+    .column {
+      gap: 10px;
+    }
+  }
+
+  .project-ref {
+    width: 100%;
+    gap: 20px;
+
+    a {
+      display: block;
+    }
+
+    .project-item {
+      width: 100%;
+      height: 110px;
+      border-radius: 10px;
+      overflow: hidden;
+
+      .project-image-container {
+        width: 110px;
+        height: 100%;
+        background-color: #cce5fc;
+        display: flex;
+        align-items: center;
+        position: relative;
+        img {
+          width: 129px;
+          position: absolute;
+          right: -40px;
+        }
+      }
+      .project-spec {
+        flex-grow: 1;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+
+        h4 {
+          padding: 0 !important;
+        }
+      }
+    }
+  }
+
+  .contact {
+    padding-top: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    place-content: center;
+    width: 100%;
+
+    object {
+      transform: scale(0.75);
+    }
+  }
 }

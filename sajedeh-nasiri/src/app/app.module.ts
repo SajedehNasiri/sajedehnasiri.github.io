@@ -21,6 +21,8 @@ import { HeaderImageComponent } from './components/header-image/header-image.com
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectItemComponent } from './components/project-item/project-item.component';
 import { UnderConstructionComponent } from './components/under-construction/under-construction.component';
+import { IndexturantComponent } from './components/projects/indexturant/indexturant.component';
+import { LazyLoadDirective } from './directive/lazy-load.directive';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { UnderConstructionComponent } from './components/under-construction/unde
     HeaderImageComponent,
     FooterComponent,
     ProjectItemComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    IndexturantComponent,
+    LazyLoadDirective
   ],
   imports: [
     BrowserModule,

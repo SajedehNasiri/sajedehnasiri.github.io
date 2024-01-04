@@ -85,6 +85,10 @@ p {
   width: 100%;
 }
 
+.m0 {
+  margin: 0 !important;
+}
+
 .hr-center {
   place-content: center;
 }
@@ -174,4 +178,19 @@ app-go-to-top {
   .center-sm {
     margin: 0 auto;
   }
+}
+
+//Lazy Loading
+
+.lazy-load-section {
+  /* Initial styles for the section */
+  display: none;
+  transform: translateY(30px); /* Start from a slightly lower position */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.lazy-load-section.lazy-slide-in {
+  /* Animation styles for the sliding effect */
+  display: block;
+  transform: translateY(0);
 }

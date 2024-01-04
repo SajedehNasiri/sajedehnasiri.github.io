@@ -1,0 +1,247 @@
+@import "variables";
+
+//LG
+@media screen and (min-width: $lg-screen) {
+  .heading {
+    font-size: 40px;
+    padding-top: 180px;
+  }
+  .gap130-lg {
+    gap: 128px;
+  }
+
+  .img-resp-400 {
+    width: 400px;
+  }
+
+  .pt90-lg {
+    padding-top: 90px;
+  }
+
+  .pt40-lg {
+    padding-top: 40px;
+  }
+
+  .mockup-section .frame {
+    width: 380px;
+    height: 270px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .challenges {
+    .header {
+      font-size: 28px;
+    }
+  }
+
+  .persona-info {
+    .info-detail {
+      min-height: 370px;
+    }
+
+    .detail {
+      min-height: 300px;
+    }
+  }
+}
+
+//MD
+@media screen and (min-width: $md-screen) and (max-width: $lg-screen) {
+  .heading {
+    font-size: 30px;
+    padding-top: 150px;
+  }
+  .banner {
+    img.mockup {
+      width: 400px;
+      bottom: -30px !important;
+    }
+  }
+  .img-resp-400 {
+    width: 300px;
+  }
+  .gap130-lg {
+    gap: 100px;
+  }
+
+  .pt90-lg {
+    padding-top: 50px;
+  }
+
+  .mockup-section .frame {
+    width: 285px;
+    height: 203px;
+    top: 8px !important;
+    left: 7px !important;
+  }
+
+  .challenges {
+    .header {
+      font-size: 24px;
+    }
+  }
+
+  .persona-info {
+    .info-detail {
+      min-height: 375px;
+    }
+    .detail {
+      min-height: 275px;
+    }
+  }
+}
+
+//SM
+@media screen and (min-width: $sm-screen) and (max-width: $md-screen) {
+  .heading {
+    font-size: 30px;
+    padding-top: 160px;
+  }
+  .banner {
+    img.mockup {
+      width: 200px;
+      bottom: -40px !important;
+    }
+  }
+  article .header h1 {
+    font-size: 30px;
+  }
+  .img-resp-400 {
+    width: 300px;
+  }
+
+  .gap130-lg {
+    gap: 70px;
+  }
+
+  .pt90-lg {
+    padding-top: 40px;
+  }
+
+  .prototype-btn {
+    place-self: center;
+    cursor: pointer;
+  }
+
+  .project-ov-item p {
+  }
+  .challenges {
+    .header {
+      font-size: 24px;
+    }
+  }
+
+  .mockup-section .frame {
+    width: 285px;
+    height: 203px;
+    top: 8px !important;
+    left: 7px !important;
+  }
+
+  .persona-section.row {
+    flex-direction: column !important;
+  }
+}
+
+//XS
+@media screen and (max-width: $sm-screen) {
+  p {
+    font-size: 18px !important;
+  }
+  .heading {
+    font-size: 27px;
+    padding-top: 110px;
+  }
+  .banner {
+    img.mockup {
+      width: 200px;
+      bottom: -40px !important;
+    }
+  }
+  article .header h1 {
+    font-size: 27px;
+  }
+  .img-resp-400 {
+    width: 100%;
+  }
+
+  .gap130-lg {
+    gap: 50px;
+  }
+
+  .pt90-lg {
+    padding-top: 25px;
+  }
+
+  .prototype-btn {
+    place-self: center;
+  }
+
+  .project-ov-item {
+    flex: 1 0 auto !important;
+  }
+
+  .project-ov-item p {
+  }
+
+  .mockup-section .frame {
+    width: 94%;
+    height: 77%;
+    top: 3% !important;
+    left: 3% !important;
+  }
+
+  .challenges {
+    .header {
+      font-size: 18px;
+    }
+  }
+
+  .prototype-btn-container {
+    width: 100% !important;
+  }
+}
+
+// CUSTOM
+@media screen and (max-width: 250px) {
+  .banner {
+    img.mockup {
+      width: 0;
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-height: $sm-screen) and (min-width: $md-screen) {
+  .banner {
+    img.mockup {
+      width: 350px;
+      bottom: -40px !important;
+    }
+  }
+}
+
+@media screen and (max-height: $sm-screen) and (max-width: $md-screen) {
+  .heading {
+    font-size: 27px;
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 1550px) {
+  .persona-info {
+    .info-detail {
+      min-height: 285px;
+    }
+    .detail {
+      min-height: 270px;
+    }
+  }
+}
+@media screen and (min-height: 1135px) and (max-width: $lg-screen) {
+  .persona-info {
+    .info-detail {
+      min-height: 275px;
+    }
+  }
+}

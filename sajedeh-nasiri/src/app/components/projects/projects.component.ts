@@ -17,6 +17,12 @@ export class ProjectsComponent {
       bgColor: '#94C0E9'
     },
     {
+      name: 'Indexturant', description: 'Indexturant',
+      imageFileName: 'Indexturant.png',
+      link: this.relativePath ? 'project/indexturant' : 'indexturant',
+      bgColor: '#95b6d4'
+    },
+    {
       name: 'The Clove Club',
       description: 'Redesign of restaurant website',
       imageFileName: 'pr_the_clove_club.png',

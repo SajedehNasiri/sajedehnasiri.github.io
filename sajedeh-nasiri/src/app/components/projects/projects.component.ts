@@ -17,25 +17,25 @@ export class ProjectsComponent {
       bgColor: '#94C0E9'
     },
     {
-      name: 'Indexturant', description: 'Indexturant',
+      name: 'Indexturant', description: 'Coffee shop equipment responsive online shop ',
       imageFileName: 'Indexturant.png',
       link: this.relativePath ? 'project/indexturant' : 'indexturant',
-      bgColor: '#95b6d4'
+      bgColor: '#BFD7ED'
     },
     {
       name: 'The Clove Club',
       description: 'Redesign of restaurant website',
       imageFileName: 'pr_the_clove_club.png',
       link: '/coming-soon',
-      bgColor: '#BFD7ED'
-    },
-    {
-      name: 'High-five',
-      description: 'Social connecting App design',
-      imageFileName: 'high_five_iPhone.png',
-      link: '/coming-soon',
       bgColor: '#CCE5FC'
     },
+    // {
+    //   name: 'High-five',
+    //   description: 'Social connecting App design',
+    //   imageFileName: 'high_five_iPhone.png',
+    //   link: '/coming-soon',
+    //   bgColor: '#CCE5FC'
+    // },
   ];
 }
 

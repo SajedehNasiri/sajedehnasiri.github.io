@@ -35,14 +35,8 @@
     }
   }
 
-  .persona-info {
-    .info-detail {
-      min-height: 370px;
-    }
-
-    .detail {
-      min-height: 300px;
-    }
+  .persona-head-1 td {
+    font-size: 20px !important;
   }
 }
 
@@ -79,15 +73,6 @@
   .challenges {
     .header {
       font-size: 24px;
-    }
-  }
-
-  .persona-info {
-    .info-detail {
-      min-height: 375px;
-    }
-    .detail {
-      min-height: 275px;
     }
   }
 }
@@ -229,19 +214,6 @@
   }
 }
 @media screen and (min-width: 1550px) {
-  .persona-info {
-    .info-detail {
-      min-height: 285px;
-    }
-    .detail {
-      min-height: 270px;
-    }
-  }
 }
 @media screen and (min-height: 1135px) and (max-width: $lg-screen) {
-  .persona-info {
-    .info-detail {
-      min-height: 275px;
-    }
-  }
 }

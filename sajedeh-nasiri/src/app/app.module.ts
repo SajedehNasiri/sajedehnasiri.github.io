@@ -23,6 +23,7 @@ import { ProjectItemComponent } from './components/project-item/project-item.com
 import { UnderConstructionComponent } from './components/under-construction/under-construction.component';
 import { IndexturantComponent } from './components/projects/indexturant/indexturant.component';
 import { LazyLoadDirective } from './directive/lazy-load.directive';
+import { ImageZoomDirective } from './directive/image-zoom.directive';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { LazyLoadDirective } from './directive/lazy-load.directive';
     ProjectItemComponent,
     UnderConstructionComponent,
     IndexturantComponent,
-    LazyLoadDirective
+    LazyLoadDirective,
+    ImageZoomDirective
   ],
   imports: [
     BrowserModule,

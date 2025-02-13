@@ -24,6 +24,7 @@ import { UnderConstructionComponent } from './components/under-construction/unde
 import { IndexturantComponent } from './components/projects/indexturant/indexturant.component';
 import { LazyLoadDirective } from './directive/lazy-load.directive';
 import { ImageZoomDirective } from './directive/image-zoom.directive';
+import { ToyaboComponent } from './components/projects/toyabo/toyabo.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { ImageZoomDirective } from './directive/image-zoom.directive';
     UnderConstructionComponent,
     IndexturantComponent,
     LazyLoadDirective,
-    ImageZoomDirective
+    ImageZoomDirective,
+    ToyaboComponent
   ],
   imports: [
     BrowserModule,
